@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  
+      "oneof":[
+
+          "sensor1": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "value": {
+                      "type": "object",
+                      "properties": {
+                          "X": {"type": "integer"},
+                          "Y": {"type": "integer"},
+                          "Z": {"type": "integer"}
+                       },
+                        "required": ["X","Y","Z"]
+                },
+
+                "id": {"type": "integer"}
+            },
+            "required": ["name","value","id"]
+          },
+
+          "sensor2": {
+              "type": "object",
+                "properties": {
+                      "name": {"type": "string"},
+                      "value": {"type": "string"},
+                      "id": {"type": "integer"}
+                 },
+                "required": ["name","value","id"]
+          },
+
+          "sensor3": {
+              "type": "object",
+              "properties": {
+                    "name": {"type": "string"},
+                    "value": {"type": "string"},
+                    "id": {"type": "integer"}
+              },
+              "required": ["name","value","id"]
+          }
+     ]
+  
+}

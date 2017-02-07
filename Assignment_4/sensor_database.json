@@ -1,0 +1,24 @@
+{
+   "acc" : {
+   	  "date" :"Day1",
+      "name" : "Accelerometer",
+	  "value" : {
+	  		"X" : "-100",
+	  		"Y" : "100",
+	  		"Z" : "-50"
+	  },
+	  "id": 1
+   },
+   "hum" : {
+   	  "date" :"Day1",
+      "name" : "Humidity",
+	  "value" : "80",
+	  "id": 2
+   },
+   "temp" : {
+   	  "date" :"Day1",
+      "name" : "Temperature",
+	  "value" : "100",
+	  "id": 3
+   }
+}
