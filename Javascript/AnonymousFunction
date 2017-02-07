@@ -1,0 +1,5 @@
+var takeSelfy =function(){
+	Console.log("I'm taking a selfy maaaaaaaaaan!!!");
+}
+
+takeSelfy();

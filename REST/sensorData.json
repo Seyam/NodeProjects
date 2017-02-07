@@ -1,0 +1,21 @@
+{
+   "acc" : {
+      "name" : "Accelerometer",
+	  "value" : {
+	  		"X" : "-100",
+	  		"Y" : "100",
+	  		"Z" : "-50"
+	  },
+	  "id": 1
+   },
+   "hum" : {
+      "name" : "Humidity",
+	  "value" : "80",
+	  "id": 2
+   },
+   "temp" : {
+      "name" : "Temperature",
+	  "value" : "100",
+	  "id": 3
+   }
+}
